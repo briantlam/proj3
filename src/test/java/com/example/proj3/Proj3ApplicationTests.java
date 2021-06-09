@@ -1,13 +1,13 @@
 package com.example.proj3;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.Assert;
+import org.junit.Test;
 
-@SpringBootTest
 class Proj3ApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void printTest() {
+		Assert.assertTrue("Hello World" == "Hello World");
 	}
 
 }
